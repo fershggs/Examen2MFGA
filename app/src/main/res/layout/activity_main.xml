@@ -9,33 +9,33 @@
 
 
     <TextView
-        android:id="@+id/txw"
+        android:id="@+id/txwSaludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Bienvenid@"
         android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="@+id/edtNombre"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/edtNombre"
+        app:layout_constraintStart_toStartOf="@+id/edtNombre" />
 
     <EditText
         android:id="@+id/edtNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="174dp"
         android:ems="10"
-        android:hint="Nombre"
+        android:hint="Nombre de usuario"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txw" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtContraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
@@ -46,10 +46,10 @@
         android:id="@+id/btnSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
         android:text="Iniciar sesión"
-        app:layout_constraintEnd_toEndOf="@+id/edtContraseña"
+        app:layout_constraintStart_toStartOf="@+id/edtContraseña"
         app:layout_constraintTop_toBottomOf="@+id/edtContraseña" />
 
 
